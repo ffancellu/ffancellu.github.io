@@ -31,11 +31,11 @@ papers:
     paper-type: inproceedings
     selected: yes
     year: 2014
-    img: nneg
+    img: negbest
     title: Applying the semantics of negation to SMT through n-best list re-ranking
     authors: Federico Fancellu and Bonnie Webber
     booktitle: Proceedings of EACL
-    booktitle-url: http://http://eacl2014.org/
+    booktitle-url: http://eacl2014.org/
     doc-url: http://www.aclweb.org/anthology/E14-1063
     venue: conference
     abstract: >
