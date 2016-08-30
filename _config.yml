@@ -30,26 +30,13 @@ papers:
   - layout: paper
     paper-type: inproceedings
     selected: yes
-    year: 2016
+    year: 2014
     img: nneg
-    title: Neural networks for negation scope detection
-    authors: Federico Fancellu, Adam Lopez, and Bonnie Webber
-    booktitle: Proceedings of ACL
-    code: https://github.com/ffancellu/NegNN
-    booktitle-url: http://acl2016.org/
-    doc-url: https://drive.google.com/file/d/0B7cpo43vOGF1Umw0dHNtQXZiMGs/view
+    title: Applying the semantics of negation to SMT through n-best list re-ranking
+    authors: Federico Fancellu and Bonnie Webber
+    booktitle: Proceedings of EACL
+    booktitle-url: http://http://eacl2014.org/
+    doc-url: http://www.aclweb.org/anthology/E14-1063
     venue: conference
     abstract: >
-      Automatic negation scope detection is a task that has been tackled 
-      using different classifiers and heuristics. Most systems are however 
-      1) highly-engineered, 2) English-specific, and 3) only tested on 
-      the same genre they were trained on. We start by addressing 1) and 2) 
-      using a neural network architecture. Results obtained on data from 
-      the *SEM2012 shared task on negation scope detection show that even a 
-      simple feed-forward neural network using word-embedding features 
-      alone, performs on par with earlier classifiers, with a 
-      bi-directional LSTM outperforming all of them. We then address 3) by 
-      means of a specially-designed synthetic test set; in doing so, we 
-      explore the problem of detecting the negation scope more in depth and 
-      show that performance suffers from genre effects and differs with the 
-      type of negation considered.
+      Although the performance of SMT systems has improved over a range of different linguistic phenomena, negation has not yet received adequate treatment. Previous works have considered the problem of translating negative data as one of data sparsity (Wetzel and Bond (2012)) or of structural differences between source and target language with respect to the placement of negation (Collins et al. (2005)). This work starts instead from the questions of what is meant by negation and what makes a good translation of negation. These questions have led us to explore the use of semantics of negation in SMT — specifically, identifying core semantic elements of negation (cue, event and scope) in a source-side dependency parse and reranking hypotheses on the n-best list produced after decoding according to the extent to which an hypothesis realises these elements. The method shows considerable improvement over the baseline as measured by BLEU scores and Stanford’s entailment-based MT evaluation metric (Padó et al. (2009)).
