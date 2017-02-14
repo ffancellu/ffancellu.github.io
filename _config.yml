@@ -45,7 +45,7 @@ papers:
         for improving translation performance on negation have simply followed
         from the developers’ beliefs about why performance is worse.
         These beliefs, however, have never been validated by an error analysis
-        of the translation output. In contrast, the current paper shows that an
+        of the translation output.  In contrast, the current paper shows that an
         informative empirical error analysis can be formulated in terms of  (1)
         the  set  of  semantic  elements  involved in  the  meaning  of
         negation,  and  (2)  a  small set of  string-based  operations  that
@@ -55,3 +55,28 @@ papers:
         inform  an  automated  investigation into the causes of translation
         errors. Conclusions  drawn  from  this  analysis  should  guide future
         work  on  improving  the  translation of negative sentences.
+  - layout: paper
+    paper-type: inproceedings
+    selected: yes
+    year: 2014
+    img: negbest
+    title: "Applying the semantics of negation to SMT through n-best list re-ranking"
+    authors: Federico Fancellu and Bonnie Webber
+    booktitle: Proceedings of EACL
+    booktitle-url: http://eacl2014.org/
+    doc-url: http://www.aclweb.org/anthology/E14-1063
+    venue: conference
+    abstract: >
+      Although the performance of SMT systems has improved over a range of different
+      linguistic phenomena, negation has not yet received adequate treatment. Previous
+      works have considered the problem of translating negative data as one of data sparsity
+      (Wetzel and Bond (2012)) or of structural differences between source and target language
+      with respect to the placement of negation (Collins et al. (2005)). This work starts
+      instead from the questions of what is meant by negation and what makes a good
+      translation of negation. These questions have led us to explore the use of
+      semantics of negation in SMT — specifically, identifying core semantic elements
+      of negation (cue, event and scope) in a source-side dependency parse and reranking
+      hypotheses on the n-best list produced after decoding according to the extent to
+      which an hypothesis realises these elements. The method shows considerable
+      improvement over the baseline as measured by BLEU scores and Stanford’s
+      entailment-based MT evaluation metric (Padó et al. (2009)).
