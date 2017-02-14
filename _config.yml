@@ -39,30 +39,7 @@ papers:
     doc-url: http://www.aclweb.org/anthology/W15-1301
     venue: conference
     abstract: >
-        Statistical  Machine  Translation  has  come  a
-        long  way  improving  the  translation  quality
-        of  a  range  of  different  linguistic  phenom-
-        ena.  With negation however, techniques pro-
-        posed and implemented for improving transla-
-        tion performance on negation have simply fol-
-        lowed from the developers’ beliefs about why
-        performance is worse. These beliefs, however,
-        have never been validated by an error analysis
-        of the translation output.  In contrast, the cur-
-        rent paper shows that an informative empiri-
-        cal error analysis can be formulated in terms
-        of  (1)  the  set  of  semantic  elements  involved
-        in  the  meaning  of  negation,  and  (2)  a  small
-        set  of  string-based  operations  that  can  char-
-        acterise errors in the translation of those ele-
-        ments. Results on a Chinese-to-English trans-
-        lation task confirm the robustness of our anal-
-        ysis cross-linguistically and the basic assump-
-        tions  can  inform  an  automated  investigation
-        into the causes of translation errors.  Conclu-
-        sions  drawn  from  this  analysis  should  guide
-        future  work  on  improving  the  translation  of
-        negative sentences.
+        Statistical  Machine  Translation  has  come  a long  way  improving  the  translation  quality of  a  range  of  different  linguistic  phenomena.  With negation however, techniques proposed and implemented for improving translation performance on negation have simply followed from the developers’ beliefs about why performance is worse. These beliefs, however, have never been validated by an error analysis of the translation output.  In contrast, the current paper shows that an informative empirical error analysis can be formulated in terms of  (1)  the  set  of  semantic  elements  involved in  the  meaning  of  negation,  and  (2)  a  small set  of  string-based  operations  that  can  characterise errors in the translation of those elements. Results on a Chinese-to-English translation task confirm the robustness of our analysis cross-linguistically and the basic assumptions  can  inform  an  automated  investigation into the causes of translation errors.  Conclusions  drawn  from  this  analysis  should  guide future  work  on  improving  the  translation  of negative sentences.
   - layout: paper
     paper-type: inproceedings
     selected: yes
