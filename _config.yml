@@ -75,7 +75,7 @@ papers:
     paper-type: inproceedings
     selected: yes
     year: 2015
-    img: scopeEacl2017
+    img: exprom2015
     title: "Translating negation: A Manual Eror Analysis"
     authors: Federico Fancellu and Bonnie Webber
     booktitle: Proceedings of Ex-Prom 2015 (Extra-Propositional Aspects of Meaning in Computational Linguistics) workshop
@@ -103,7 +103,7 @@ papers:
     paper-type: inproceedings
     selected: yes
     year: 2014
-    img: negbest
+    img: eacl2014
     title: "Applying the semantics of negation to SMT through n-best list re-ranking"
     authors: Federico Fancellu and Bonnie Webber
     booktitle: Proceedings of EACL
