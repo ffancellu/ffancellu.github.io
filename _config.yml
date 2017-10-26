@@ -58,7 +58,7 @@ papers:
     img: monokuma
     title: "Neural Networks for Negation Cue Detection in Chinese"
     authors: Hangfeng He, Federico Fancellu, Bonnie Webber
-    booktitle: Proceedings of SemBEAR workshop@EACL2017
+    booktitle: Proceedings of SemBEAR workshop@EACL
     booktitle-url: http://www.cse.unt.edu/sembear2017/
     doc-url: http://www.aclweb.org/anthology/W17-1809
     venue: conference
