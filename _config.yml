@@ -60,6 +60,7 @@ papers:
     authors: Hangfeng He, Federico Fancellu, Bonnie Webber
     booktitle: Proceedings of SemBEAR workshop@EACL2017
     booktitle-url: http://www.cse.unt.edu/sembear2017/
+    doc-url: http://www.aclweb.org/anthology/W17-1809
     venue: conference
     abstract: >
       Negation cue detection involves identifying  the  span  inherently
