@@ -5,7 +5,7 @@ papers:
     paper-type: inproceedings
     selected: yes
     year: 2017
-    img: inpress
+    img: monokuma
     title: "Universal Dependencies to Logical Forms with Negation Scope"
     authors: Federico Fancellu, Siva Reddy, Adam Lopez and Bonnie Webber
     booktitle: ArXiv (To appear in the Proceeding of the SemBEAR workshop)
@@ -27,7 +27,7 @@ papers:
     paper-type: inproceedings
     selected: yes
     year: 2017
-    img: inpress
+    img: monokuma
     title: "Neural Networks for Negation Cue Detection in Chinese"
     authors: Hangfeng He, Federico Fancellu, Bonnie Webber
     booktitle: Proceedings of SemBEAR workshop@EACL2017
@@ -50,7 +50,7 @@ papers:
     paper-type: inproceedings
     selected: yes
     year: 2017
-    img: inpress
+    img: monokuma
     title: "Detecting negation scope is easy, except when it isn't"
     authors: Federico Fancellu, Adam Lopez, and Bonnie Webber and Hangfeng He
     booktitle: Proceedings of EACL
@@ -72,7 +72,7 @@ papers:
     paper-type: inproceedings
     selected: yes
     year: 2016
-    img: nneg
+    img: monokuma
     title: "Neural networks for negation scope detection"
     authors: Federico Fancellu, Adam Lopez, and Bonnie Webber
     booktitle: Proceedings of ACL
@@ -98,7 +98,7 @@ papers:
     paper-type: inproceedings
     selected: yes
     year: 2015
-    img: exprom2015
+    img: monokuma
     title: "Translating negation: A Manual Eror Analysis"
     authors: Federico Fancellu and Bonnie Webber
     booktitle: Proceedings of Ex-Prom 2015 (Extra-Propositional Aspects of Meaning in Computational Linguistics) workshop
@@ -126,7 +126,7 @@ papers:
     paper-type: inproceedings
     selected: yes
     year: 2014
-    img: eacl2014
+    img: monokuma
     title: "Applying the semantics of negation to SMT through n-best list re-ranking"
     authors: Federico Fancellu and Bonnie Webber
     booktitle: Proceedings of EACL
