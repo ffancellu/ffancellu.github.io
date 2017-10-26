@@ -6,6 +6,34 @@ papers:
     selected: yes
     year: 2017
     img: monokuma
+    title: "Edina: Building an Open Domain Socialbot with Self-dialogues"
+    authors: Ben Krause, Marco Damonte, Mihai Dobre, Daniel Duma, Joachim Fainberg,
+    Federico Fancellu, Emmanuel Kahembwe, Jianpeng Cheng, Bonnie Webber
+    booktitle: ArXiv
+    booktitle-url: https://arxiv.org/abs/1709.09816
+    doc-url: https://arxiv.org/abs/1709.09816
+    abstract: >
+        We present Edina, the University of Edinburgh's social bot for the Amazon
+        Alexa Prize competition. Edina is a conversational agent whose responses
+        utilize data harvested from Amazon Mechanical Turk (AMT) through an
+        innovative new technique we call self-dialogues. These are conversations
+        in which a single AMT Worker plays both participants in a dialogue. Such
+        dialogues are surprisingly natural, efficient to collect and reflective
+        of relevant and/or trending topics. These self-dialogues provide training
+        data for a generative neural network as well as a basis for soft rules
+        used by a matching score component. Each match of a soft rule against a
+        user utterance is associated with a confidence score which we show is
+        strongly indicative of reply quality, allowing this component to self-censor
+        and be effectively integrated with other components. Edina's full architecture
+        features a rule-based system backing off to a matching score, backing off
+        to a generative neural network. Our hybrid data-driven methodology thus
+        addresses both coverage limitations of a strictly rule-based approach and
+        the lack of guarantees of a strictly machine-learning approach
+  - layout: paper
+    paper-type: inproceedings
+    selected: yes
+    year: 2017
+    img: monokuma
     title: "Universal Dependencies to Logical Forms with Negation Scope"
     authors: Federico Fancellu, Siva Reddy, Adam Lopez and Bonnie Webber
     booktitle: ArXiv (To appear in the Proceeding of the SemBEAR workshop)
