@@ -28,6 +28,29 @@ papers:
     selected: yes
     year: 2017
     img: inpress
+    title: "Neural Networks for Negation Cue Detection in Chinese"
+    authors: Hangfeng He, Federico Fancellu, Bonnie Webber
+    booktitle: Proceedings of SemBEAR workshop@EACL2017
+    booktitle-url: http://www.cse.unt.edu/sembear2017/
+    venue: conference
+    abstract: >
+      Negation cue detection involves identifying  the  span  inherently
+      expressing  negation  in  a  negative  sentence.   In  Chinese,
+      negative  cue  detection  is  complicated  by morphological proprieties
+      of the language. Previous  work  has  shown  that  negative cue detection
+      in Chinese can benefit from specific  lexical  and  morphemic  features,
+      as well as cross-lingual information. We show here that they are not
+      necessary:  A bi-directional LSTM can perform equally well,  with  minimal
+      feature  engineering. In particular, the use of a character-based
+      model allows us to capture characteristics of  negation  cues  in  Chinese
+      using  word-embedding  information  only. Not  only does our model
+      performs on par with previous work, further error analysis clarifies
+      what problems remain to be addressed.
+  - layout: paper
+    paper-type: inproceedings
+    selected: yes
+    year: 2017
+    img: inpress
     title: "Detecting negation scope is easy, except when it isn't"
     authors: Federico Fancellu, Adam Lopez, and Bonnie Webber and Hangfeng He
     booktitle: Proceedings of EACL
