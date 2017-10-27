@@ -7,8 +7,7 @@ papers:
     year: 2017
     img: monokuma
     title: "Edina: Building an Open Domain Socialbot with Self-dialogues"
-    authors: Ben Krause, Marco Damonte, Mihai Dobre, Daniel Duma, Joachim Fainberg,
-    Federico Fancellu, Emmanuel Kahembwe, Jianpeng Cheng, Bonnie Webber
+    authors: Ben Krause, Marco Damonte, Mihai Dobre, Daniel Duma, Joachim Fainberg, Federico Fancellu, Emmanuel Kahembwe, Jianpeng Cheng, Bonnie Webber
     booktitle: ArXiv
     booktitle-url: https://arxiv.org/abs/1709.09816
     doc-url: https://arxiv.org/abs/1709.09816
