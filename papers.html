@@ -1,20 +1,60 @@
----
-layout: default
-title: Federico Fancellu | Papers &amp; Talks
-picture: paper
----
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>W e l c o m e !</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323|Vollkorn" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand head" href="index.html">Federico Fancellu</a>
+        </div>
 
-<div class="page-header">
-  <div class="row">
-    <div class="col-sm-12">
-      <h3>Papers</h3>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active front"><a href="index.html">Home</a></li>
+            <li class="front"><a href="papers.html">Publications</a></li>
+            <li class="front"><a href="collaborators.html">Collaborators</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container intro">
+      <div class="page-header">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>Papers</h3>
+          </div>
+        </div>
+      </div>
+      <ul>
+        <li><b class="paptitle">Evaluating Machine Translation Performance on Chinese Idioms with a Blacklist Method</b> Yutong Shao, Rico Sennrich, Bonnie Webber, Federico Fancellu. In LREC, 2018</li>
+        <li><b class="paptitle">NegPar: a parallel corpus annotated for negation</b> Qianchu Liu. Federico Fancellu, Bonnie Webber. In LREC, 2018</li>
+        <li><b class="paptitle">Edina: Building an Open Domain Socialbot with Self-dialogues</b> Ben Krause, Marco Damonte, Mihai Dobre, Daniel Duma, Joachim Fainberg, Federico Fancellu, Emmanuel Kahembwe, Jianpeng Cheng, Bonnie Webber. In ArXiv, 2017.</li>
+        <li><b class="paptitle">Universal Dependencies to Logical Forms with Negation Scope</b> Federico Fancellu, Siva Reddy, Adam Lopez and Bonnie Webber. In Proceeding of the SemBEAR workshop@EACL, 2017</li>
+        <li><b class="paptitle">Neural Networks for Negation Cue Detection in Chinese</b> Hangfeng He, Federico Fancellu, Bonnie Webber. In  Proceedings of SemBEAR workshop@EACL, 2017.</li>
+        <li><b class="paptitle">Detecting negation scope is easy, except when it isn't</b> Federico Fancellu, Adam Lopez, and Bonnie Webber and Hangfeng He. In Proceedings of EACL, 2017.</li>
+        <li><b class="paptitle">Neural networks for negation scope detection</b> Federico Fancellu, Adam Lopez, and Bonnie Webber. In Proceedings of ACL, 2016.</li>
+        <li><b class="paptitle">Translating negation: A Manual Eror Analysis</b> Federico Fancellu and Bonnie Webber. In Proceedings of Ex-Prom 2015 (Extra-Propositional Aspects of Meaning in Computational Linguistics) workshop, 2015.</li>
+        <li><b class="paptitle">Applying the semantics of negation to SMT through n-best list re-ranking</b> Federico Fancellu and Bonnie Webber. In Proceedings of EACL, 2014</li>
+      </ul>
     </div>
-  </div>
-</div>
-{% for post in site.papers %}
-  {% include paper.html paper=post %}
-{% endfor %}
-<div>
-* The frightening teddy bear in the thumbnails is <a href="http://danganronpa.wikia.com/wiki/Monokuma">Monokuma</a>,
-symbol of despair, which is the feeling I mostly associate to writing papers.
-</div>
+  </body>
+</html>

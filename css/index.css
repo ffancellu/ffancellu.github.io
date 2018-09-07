@@ -1,0 +1,41 @@
+.navbar {
+  color:black;
+  background: #bbbbbb;
+}
+
+.mainimg{
+  max-width:20%;
+  max-height:20%;
+}
+
+.paptitle{
+  color:#fefe54;
+}
+
+.intro {
+  color: #bbbbbb;
+  letter-spacing: 1.2px;
+  font-size: 25px;
+  font-family: 'VT323', serif;
+  margin-top: 40px;
+}
+
+body {
+  background: black;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.head {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-family: 'VT323', monospace;
+}
+
+.front {
+ font-size: 20px;
+ letter-spacing: 2px;
+ font-family: 'VT323', regular;
+}
